@@ -1,0 +1,190 @@
+*{
+  font-family: "Poppins";
+}
+
+body{
+  width: 1280px;
+}
+#port{
+color: #070F18;
+margin-top: 40px;
+margin-left: 50px;
+font-family: "Poppins";
+font-size: 22px;
+text-decoration-line: underline;
+}
+
+a { 
+  color: inherit;
+  text-decoration: none; 
+} 
+#navbar{
+margin-right: 50px;
+margin-top: -49px;
+margin-left: 900px;
+color: #070F18;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+text-decoration-line:none;
+}
+#navbar li{
+  color:#070F18;
+  display:inline-block;
+  margin-right: 5px;
+  text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #presentations{
+    margin-top: 142px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+#presentation{
+  color:#000;
+  font-size:55px;
+}
+
+#iam{
+  color: #575455;
+  font-size: 16px;
+}
+
+#button{
+  width: 180px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #1F7CFF;
+color:white
+}
+
+#maria{
+width: 550px;
+height: 461px;
+flex-shrink: 0;
+border-radius: 50px;
+margin-left: 706px;
+margin-top: -338px;
+margin-right: 50px;
+}
+
+#clientes{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#imagens1{
+  margin-top: -50px;
+  margin-left: 400px; 
+}
+
+#imagens1 img{
+  margin-left:170px;
+}
+
+#services{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#services h2{
+  color: #F75C4E;
+  font-size: 16px;
+}
+
+#services h1{
+  color:#000;
+  font-size: 36px;
+  margin-top: -20px;
+}
+
+#services p{
+  color: #575455;
+  margin-top: 20px;
+}
+
+#icones div{
+  margin-top: 50px;
+  margin-left: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+#icones .p{
+  color: #575455;
+}
+#icones strong{
+  font-size: 22px;
+}
+
+#img2{
+  border-radius: 50px;
+  width: 500px;
+}
+
+#emails{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#tempo{
+  display: block;
+  align-items: center;
+  
+ margin-left: 700px;
+ margin-top: -300px;
+}
+
+#tempo h2{
+  color: #F75C4E;
+  font-size: 16px;
+}
+
+#tempo h1{
+  font-size: 36px;
+}
+
+#tempo p{
+  color: #575455;
+}
+#tempo input{
+border-radius: 50px;
+background: #F5F6FB;
+width: 406px;
+height: 48px;
+flex-shrink: 0;
+}
+#tempo button{
+  width: 180px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #1F7CFF;
+margin-top: 10px;
+}
+
+#portifolio{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#portifolio h2{
+  color: #F75C4E;
+font-size: 16px;
+}
+
+#portifolio img{
+  margin-right: 50px;
+}
+
+@media only screen and (max-device-width: 900px) {
+  body{width: 60% };
+}
